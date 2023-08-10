@@ -11,4 +11,17 @@ func GoLoops() {
 	}
 
 	fmt.Printf("Sum -> %v\n", sum)
+	iterations()
+}
+
+func iterations() {
+
+	sum := 1
+
+	for sum < 250 {
+
+		sum += sum
+	}
+
+	fmt.Printf("Sum -> %v\n", sum)
 }
