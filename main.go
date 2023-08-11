@@ -10,5 +10,8 @@ func main() {
 	// chapter1.GoVariables()
 	// chapter1.GoTypeConversions()
 	// chapter1.NumericConstants()
-	chapter2.GoLoops()
+	// chapter2.GoLoops()
+	// chapter2.GoConditionals()
+	// chapter2.GoSwitch()
+	chapter2.DeferFunction()
 }
